@@ -64,14 +64,40 @@ margin:.5em .5em;
     color:#E94057;
 }
 .bg-img{
+
     color:white;
 }
-.bg-img{
-    background-image:black url(assets/header-img-1.jpg) no-repeat;
-    background-size:100% 100%;
-    width:100px;
-    height:200px;
-    z-index:999;
-    display: block;
+.header-img{
+    background:url(assets/header-img-1.jpg) no-repeat;
+    background-size:cover;
+    width:100%;
+    height:auto;
+    z-index:-1;
+    
+
+}
+.header-img-2{
+    background:url(assets/header-img-2.jpg) no-repeat;
+    background-size:cover;
+    width:100%;
+    height:auto;
+    z-index:-1;
+    
+
+}
+.header-img-3{
+    background:url(assets/header-img-3.jpg) no-repeat;
+    background-size:cover;
+    width:100%;
+    height:auto;
+    z-index:-1;
+    
+
+}
+.news{
+    display:grid;
+    grid-template-columns: 1fr 6fr;
+}
+.news-img-1{
 
 }
