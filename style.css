@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
 }
@@ -15,6 +16,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr 1fr;
     border-bottom:1px solid #ccc;
+    
 }
 .logo{
     width:100%;
@@ -23,6 +25,7 @@ body{
     padding-bottom:.5em;
     z-index:999;
 }
+
 
 .logo img{
     height:16px;
@@ -51,6 +54,31 @@ border-right:0px;
   
 }
 
+.latest-funding h2{
+    margin-bottom:.5em;
+    color:#f42;
+}
+
+.latest-funding h2:hover{
+
+    color:black;
+}
+.latest-funding-list{
+    margin-bottom: 3em;
+    list-style: none;
+}
+
+.latest-funding-list li{
+    margin-bottom:.5em;
+
+}
+.latest-funding-list li a{
+    color:#f42;
+}
+
+.latest-funding-list li a:hover{
+    color:black;
+}
 .fa-search,.fa-bars{
 margin:.5em .5em;
 
@@ -68,6 +96,13 @@ margin:.5em .5em;
 .bg-img{
 
     color:white;
+}
+
+.section-a{
+    margin-top:5px;
+    margin-left:5px;
+    background-color:#ccc;
+    min-height:100vh;
 }
 .header-img{
     background:url(assets/header-img-1.jpg) no-repeat;
@@ -100,6 +135,11 @@ margin:.5em .5em;
 
 .section-b{
     margin-top: 80px;
+    margin-left:15px;
+}
+
+.section-b h2{
+    margin-bottom:1em;
 }
 
 .news{
@@ -123,9 +163,11 @@ margin:.5em .5em;
 }
 
 .section-c{
-    margin-left: 20px;
+    margin-left: 15px;
     margin-right: 20px;
+    margin-top:30px;
 }
+
 .first-head{
     background-color:#f42;
     padding:10.6666666667px 16px 10.6666666667px 84px;
@@ -137,13 +179,21 @@ margin:.5em .5em;
 }
 
 .funding-rounds-img{
-    position: relative;   
-    top: 70px;
-    left: 5px;
+    position: absolute;
+    top: 7px;
+    left: 10px;
 }
+
+
+.story{
+    position: relative;
+}
+
+
 .investment-card{
     background-color:#fffaf8;
     padding-top:10px;
+    padding-left:10px;
 
 }
 .fa-tag,.fa-briefcase{
@@ -169,3 +219,109 @@ margin:.5em .5em;
     color:#ccc;
 }
 
+.section-d{
+    margin-left:15px;
+    margin-top:50px;
+    margin-right:20px;
+}
+
+.section-d-img{
+    background:url(assets/apps-img1.png) no-repeat;
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+
+.section-d-caption-1{
+    color:white;
+}
+
+
+
+.section-d-subsection{
+    display:grid;
+    grid-template-columns: 5fr 1fr;
+    background-color:#fff4f2;
+    
+}
+
+.section-d-subsection-img{
+    width:96px;
+    height:96px;
+}
+
+.section-d h2{
+    margin-bottom:1em;
+}
+
+.section-d-caption{
+    position:relative;
+}
+
+.section-d-caption-1{
+    position: absolute;
+    top:170px;
+    font-size:1em;
+    margin-left:10px;
+
+}
+
+.section-d-caption-2{
+    position: absolute;
+    top:190px;
+    font-size:1.5em;
+    margin-left:10px;
+    line-height: .7em;
+}
+
+.section-d-caption-3{
+    position: absolute;
+    top:210px;
+    font-size:1em;
+    margin-left:10px;
+    line-height: 1.5em;
+}
+
+.section-d-subsection-1{
+    margin:1em 0.5em 0 1em;
+    font-size:1em;
+}
+
+.section-d-subsection-2{
+    margin:0em 0.5em 0 1em;
+    font-size:1em;
+    font-weight:600;
+}
+
+.section-d-ul{
+    margin-left:15px;
+    margin-top:1em;
+    
+}
+
+.section-d-ul-li{
+    padding-bottom:10px;
+    border-bottom:1px solid #ccc;
+    margin-bottom:1em;
+    color:#555;
+    padding: 6px 0 6px 14px;
+    list-style:none;  
+}
+
+
+.section-d-ul-li::before {
+    content: "\2022";  color: red; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.2em; 
+  }
+
+.section-d-ul-li:hover{
+    color:black;
+}
+
+.section-d-ul-li a{
+    text-decoration: none;
+}
