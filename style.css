@@ -94,10 +94,28 @@ margin:.5em .5em;
     
 
 }
+
+
+.section-b{
+    margin-top: 80px;
+}
+
 .news{
     display:grid;
     grid-template-columns: 1fr 6fr;
-}
-.news-img-1{
+    padding-bottom: 20px;
 
+}
+
+.news-img-1{
+    width: 75px;
+    height:75px;
+}
+
+.news div{
+    margin-left: 1em;
+}
+
+.news-caption-2{
+    margin-top: 1em;
 }
