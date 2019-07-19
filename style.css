@@ -9,6 +9,7 @@ a{
 }
 
 body{
+    overflow-x:hidden; 
     
 }
 
@@ -140,6 +141,7 @@ margin:.5em .5em;
 
 .section-b h2{
     margin-bottom:1em;
+    color:#c9c9c9;
 }
 
 .news{
@@ -392,4 +394,112 @@ margin:.5em .5em;
 }
 .deals-wrapper p{
     margin-top:0.3em;
+}
+
+.footer-bg-1{
+    background-color: #131313;
+    width:100vw;
+    height:auto;
+
+}
+
+.footer-bottom{
+    background-color:#000000;
+    width:100vw;
+    height:auto;
+}
+
+.footer-icons {
+
+    display: flex;
+    padding-top:2em;
+    margin-left:15vw;
+    width:100vw;
+}
+
+
+.footer-icons li{
+    margin:0 0.2em;
+    list-style: none;
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:1px solid #333;
+    padding:.5em .5em;
+    background:#333;
+    
+    text-align:center;
+}
+
+.footer-icons li a{
+    
+    text-decoration: none;
+    color:#fff;
+}
+
+.footer-menu{
+    display: flex;
+    list-style: none;
+    width:100vw;
+    margin-top:2em;
+    margin-left:22vw;
+    margin-right:20vw;
+    padding-bottom:2.5em;
+
+}
+
+.footer-menu-link{
+    margin:0 0.5em;
+    font-size:.65em;
+    text-align:center;
+
+    
+}
+
+.footer-menu-link a{
+    color:#aaa;
+}
+
+.footer-bottom{
+    padding:2em;
+
+}
+
+.footer-bottom-div{
+    display: flex;
+    width:100vw;
+    margin-left:5em;
+ 
+}
+.footer-bottom-div img{
+width:40px;
+height:40px;
+
+}
+.footer-bottom-p{
+    color:#ccc;
+    margin-top:0.7em;
+    margin-left:0.2em;
+}
+
+.footer-bottom-p-love{
+    color:#ccc;
+    text-align: center;
+}
+
+.footer-bottom-p-love i{
+    color:red;
+    margin-left:.3em;
+}
+
+.footer-bottom-p-power{
+text-align:center;
+color:#ccc;
+margin-top:0.2em;
+
+}
+
+.footer-bottom-p-power span img{
+    width:40px;
+    height:7px;
 }
