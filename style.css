@@ -102,33 +102,50 @@ margin:.5em .5em;
 .section-a{
     margin-top:5px;
     margin-left:5px;
-    background-color:#ccc;
+    background-color:#fff;
     min-height:100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-right: 5px;
 }
 .header-img{
-    background:url(assets/header-img-1.jpg) no-repeat;
+    background: linear-gradient(
+                     rgba(20,20,20, .7), 
+                     rgba(20,20,20, .7)),
+                     url(assets/header-img1.jpg);
     background-size:cover;
     width:100%;
     height:auto;
-    z-index:-1;
+    z-index:1;
+    margin-bottom: 5px;
     
 
 }
 .header-img-2{
-    background:url(assets/header-img-2.jpg) no-repeat;
+    background: linear-gradient(
+        rgba(20,20,20, .8), 
+        rgba(20,20,20, .8)),
+        url(assets/header-img-2.jpg);
     background-size:cover;
     width:100%;
     height:auto;
-    z-index:-1;
+    z-index:1;
+    margin-bottom: 5px;
+
     
 
 }
 .header-img-3{
-    background:url(assets/header-img-3.jpg) no-repeat;
+    background: linear-gradient(
+                     rgba(20,20,20, .8), 
+                     rgba(20,20,20, .8)),
+                     url(assets/header-img-3.jpg);
+
     background-size:cover;
     width:100%;
     height:auto;
-    z-index:-1;
+    z-index:1;
+
     
 
 }
@@ -141,7 +158,50 @@ margin:.5em .5em;
 
 .section-b h2{
     margin-bottom:1em;
-    color:#c9c9c9;
+    color:#f42;
+}
+
+.caption-header-1{
+    color:white;
+    margin-top:60px;
+    margin-left:10px;
+    font-family: 'Cairo', sans-serif;
+    line-height: 1em;
+    font-size:1em;
+
+}
+.caption-header-2{
+    color:white;
+    margin-left:10px;
+    line-height: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:1.3em;
+
+
+}
+.caption-header-3{
+    font-family: 'Abel', sans-serif;
+    color:#ccc;
+    margin-left:10px;
+    margin-top:8px;
+    font-size:1em;
+
+}
+.caption-header-1 a,.caption-header-2 a{
+    color:white;
+}
+
+.caption-header-3 a{
+    color:#ccc;
+}
+.caption-header-3 a:hover{
+    color:white;
+}
+.fa-clock,.fa-share-alt{
+    margin-left:0.5em;
+    margin-right:0.5em;
+    color:#ccc;
 }
 
 .news{
