@@ -58,7 +58,7 @@ border-right:0px;
 
 .latest-funding h2{
     margin-bottom: .8em;
-    font-weight:600;
+    font-weight:800;
 }
 
 
@@ -174,12 +174,14 @@ margin:.5em .5em;
 }
 
 .caption-header-1{
+    
     color:white;
-    margin-top:60px;
+    margin-top:140px;
     margin-left:10px;
     font-family: 'Cairo', sans-serif;
     line-height: 1em;
     font-size:1em;
+    font-weight: 500;
 
 }
 .caption-header-2{
@@ -187,8 +189,9 @@ margin:.5em .5em;
     margin-left:10px;
     line-height: 1.2em;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size:1.3em;
+    font-weight: 800;
+    font-size:1.1em;
+    padding-right:1em;
 
 
 }
@@ -396,6 +399,70 @@ font-size:12px;
     z-index:-1;
 }
 
+.section-d-img-2{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/gear-img-1.jfif);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+
+.section-d-img-3{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/tech-img-1.png);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+
+.section-d-img-4{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/creative-img-1.png);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+
+.section-d-img-5{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/podium-img-1.png);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+.section-d-img-6{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/launch-img-1.jpg);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
+
+.section-d-img-7{
+    background: linear-gradient(
+        rgba(20,20,20, .7), 
+        rgba(20,20,20, .7)),
+        url(assets/distract-img-1.jpg);
+    background-size:100% 100%;
+    width:auto;
+    height:250px;
+    z-index:-1;
+}
 .section-d-caption-1{
     color:white;
     font-size: 11px;
@@ -417,6 +484,7 @@ font-size:12px;
 .section-d-subsection-img img{
     width:96px;
     height:96px;
+    
 }
 .section-d h2{
     margin-bottom:1em;
@@ -508,7 +576,7 @@ font-size:12px;
     
 }
 
-.section-d-ul-li{
+.section-d-ul-li {
     padding-bottom:10px;
     border-bottom:1px solid #ccc;
     margin-bottom:1em;
@@ -526,12 +594,15 @@ font-size:12px;
     margin-left: -1.2em; 
   }
 
-.section-d-ul-li:hover{
+.section-d-ul-li a:hover{
     color:black;
 }
 
 .section-d-ul-li a{
     text-decoration: none;
+    color:#555;
+font-family: Arial, Helvetica, sans-serif;
+font-size:12px;
 }
 
 .section-b-2{
@@ -676,3 +747,4 @@ color:#ccc;
     width:40px;
     height:10px;
 }
+
