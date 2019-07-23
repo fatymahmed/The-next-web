@@ -142,11 +142,11 @@
 }
 
 .caption-desktop{
-    margin-top:7em;
+    margin-top:2.5em;
 }
 
 .caption-header-2-desktop{
-    font-size: 1em;
+    font-size: 1.3em;
 }
 .section-b-700{
     margin-top: 80px;
@@ -235,8 +235,8 @@ padding:0 10px;
     grid-template-columns: 1fr 1fr;
 }
 
-.section-d h2{
-    font-weight: 800;
+.section-d h2 a{
+    font-weight: 700;
 }
 
 .section-e-grid-wrapper{
@@ -329,12 +329,12 @@ padding:0 10px;
     }
 
     .caption-header-1{
-        margin-top:17em;
+        margin-top:15em;
     
     }
 
     .caption-desktop{
-        margin-top:8em;
+        margin-top:5em;
     }
 
     .power-img{
