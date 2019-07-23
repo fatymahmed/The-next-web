@@ -263,6 +263,11 @@ padding:0 10px;
 @media(min-width:1024px){
     .fa-search{
         padding-left:25em;
+        
+    }
+
+    .fa-search{
+        align-self:flex-end;
     }
     main{
         padding:0 4em;
