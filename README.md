@@ -1,5 +1,8 @@
 # The-next-web
-This Project consists of replicating [the next web webpage](https://thenextweb.com/). The emphasis is how the webpage behaves differently depending on the size of the screen where the website is rendered.
+### [Live link](https://fatymahmed.github.io/The-next-web/)
+
+- This Project consists of replicating [the next web webpage](https://thenextweb.com/).
+- The emphasis is how the webpage behaves differently depending on the size of the screen where the website is rendered.
 
 ![screenshot](./assets/screenshot.png)
 
@@ -15,10 +18,6 @@ This Project consists of replicating [the next web webpage](https://thenextweb.c
 
 👤 **Author2**
 - Fatima Ahmed [http://github.com/fatymahmed]
-
-
-# The Website
-[Live link](https://fatymahmed.github.io/The-next-web/)
 
 To get a local copy up and running follow these simple example steps.
 
